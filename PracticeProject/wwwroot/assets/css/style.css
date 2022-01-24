@@ -1,0 +1,130 @@
+#nav1{
+    z-index: 6;
+    background-color: white;
+    /* transition: .3s; */
+}
+#nav1 a{
+    color: black;
+    transition: .3s;
+}
+#nav1 a:hover{
+    color: red;
+}
+.MyNavbar{
+    height: 100px;
+    /* transition: .3s; */
+    z-index: 6;
+    background-color: white;
+}
+.MyNavbar .navRight a{
+    font-size: 17px;
+}
+.MyNavbar .navRightFlex{
+    margin-left: 32%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.navRight a{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+}
+.navLeft{
+    font-size: 30px;
+    font-weight: 600;
+}
+.navLeft span{
+    color: red;
+}
+.navRightFlex{
+    margin-left: 37%;
+}
+/* .navRight a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: red;
+} */
+#homeIntro .myCarousel{
+    position: relative;
+    height: 100%;
+    /* height: 600px; */
+    max-height: 600px;
+    width: 100%;
+}
+#homeIntro .myCarousel img{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#homeIntro .myCarousel::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.slideContent{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+.slideContent h1{
+    color: red;
+    font-size: 40px;
+}
+.slideContent p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.slideContent button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding:7px 14px;
+}.slideContent button:hover{
+    background-color: red;
+    border: 2px solid red;
+}
+@media screen and (max-width: 565px) {
+    .slideContent {
+        position: absolute;
+        content: "";
+        top: 35%;
+        left: 10%;
+        right: 0;
+        bottom: 0;
+        transform: translateY(-50%);
+        }
+  }
+#footer ul{
+    list-style: none;
+    padding: 0;
+}
+#footer h3{
+    color: white;
+}
+#footer ul li{
+    color: white;
+}
+.logoFooter{
+    color: yellow;
+    font-size: 13px;
+    margin-right: 5px;
+}

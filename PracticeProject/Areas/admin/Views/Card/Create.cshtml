@@ -1,0 +1,32 @@
+﻿@model CardCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="col-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Create</h4>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="exampleInputName1">Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Email address</label>
+                    <input asp-for="Content" class="form-control"  placeholder="Content">
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword4">Password</label>
+                    <input asp-for="Photo" class="form-control">
+                    <span asp-validation-for="Photo" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                <button class="btn btn-dark" asp-area="Admin" asp-controller="Card" asp-action="Index">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+
