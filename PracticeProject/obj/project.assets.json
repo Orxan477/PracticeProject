@@ -8564,23 +8564,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Orxan477\\.nuget\\packages\\": {},
+    "C:\\Users\\tu201906147\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orxan477\\source\\repos\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
+      "projectUniqueName": "C:\\Users\\tu201906147\\Desktop\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
       "projectName": "PracticeProject",
-      "projectPath": "C:\\Users\\Orxan477\\source\\repos\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
-      "packagesPath": "C:\\Users\\Orxan477\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orxan477\\source\\repos\\PracticeProject\\PracticeProject\\obj\\",
+      "projectPath": "C:\\Users\\tu201906147\\Desktop\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
+      "packagesPath": "C:\\Users\\tu201906147\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tu201906147\\Desktop\\PracticeProject\\PracticeProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Orxan477\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tu201906147\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8656,7 +8656,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -30,7 +30,7 @@ namespace PracticeProject.Areas.admin.Controllers
             _context = context;
             _mapper = mapper;
             _env = env;
-            _size = Settings("Key");
+            _size = Settings("Size");
         }
         private int Settings(string key)
         {

@@ -1,8 +1,7 @@
-﻿
+﻿@model IEnumerable<Card>
 @{
     ViewData["Title"] = "Index";
 }
-
 <main>
     <section id="homeIntro">
         <div class="container-fluid">
@@ -56,42 +55,18 @@
     <section id="card" class="mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-                    <div class="card">
-                        <img src="~/assets/img/team-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Name Surname</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6 my-4">
+                        <div class="card">
+                            <img src="~/assets/img/@item.Image" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text">@item.Content</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-                    <div class="card">
-                        <img src="~/assets/img/team-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Name Surname</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-                    <div class="card">
-                        <img src="~/assets/img/team-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Name Surname</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-                    <div class="card">
-                        <img src="~/assets/img/team-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Name Surname</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
+                }
             </div>
         </div>
     </section>
